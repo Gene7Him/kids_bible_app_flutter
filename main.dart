@@ -11,7 +11,9 @@ class KidsBibleApp extends StatelessWidget {
     return MaterialApp(
       title: 'Kids Bible App',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        scaffoldBackgroundColor: Color(0xFFFFF7E6),
+        primarySwatch: Colors.orange,
+        fontFamily: 'Fredoka',
       ),
       home: HomeScreen(),
     );

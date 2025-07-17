@@ -8,7 +8,8 @@
       "version": "1.0.0+1",
       "dependencies": [
         "cupertino_icons",
-        "flutter"
+        "flutter",
+        "lottie"
       ],
       "devDependencies": [
         "flutter_test"
@@ -46,6 +47,16 @@
       "name": "cupertino_icons",
       "version": "1.0.8",
       "dependencies": []
+    },
+    {
+      "name": "lottie",
+      "version": "2.7.0",
+      "dependencies": [
+        "archive",
+        "flutter",
+        "path",
+        "vector_math"
+      ]
     },
     {
       "name": "flutter",
@@ -218,9 +229,31 @@
       ]
     },
     {
+      "name": "archive",
+      "version": "3.6.1",
+      "dependencies": [
+        "crypto",
+        "path"
+      ]
+    },
+    {
       "name": "sky_engine",
       "version": "0.0.0",
       "dependencies": []
+    },
+    {
+      "name": "crypto",
+      "version": "3.0.6",
+      "dependencies": [
+        "typed_data"
+      ]
+    },
+    {
+      "name": "typed_data",
+      "version": "1.4.0",
+      "dependencies": [
+        "collection"
+      ]
     }
   ],
   "configVersion": 1
