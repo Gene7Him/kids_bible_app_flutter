@@ -1,0 +1,1 @@
+// services/firestore_service.dart - Starter file

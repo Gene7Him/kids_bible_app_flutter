@@ -1,0 +1,1 @@
+// widgets/verse_widget.dart - Starter file
